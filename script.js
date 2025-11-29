@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    alert("Website berhasil dimuat!");
     const title = document.querySelector("h1");
     const nav  =document.querySelector("nav");
     const mainContet = document.querySelector("main");
@@ -6,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector("header");
     const firstParagraph =  document.querySelector("article p")
 
-    title.textContent = "💕Belajar Javascrip  Dasar - Interaksi Pertama!💕";
+    title.textContent = "💕Belajar Javascrip Interaktif - Interaksi Pertama!💕";
     title.addEventListener("click" , () => {
         nav.classList.toggle("show-nav");
     });
